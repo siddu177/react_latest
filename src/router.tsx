@@ -4,6 +4,7 @@ import NotMatch from './components/pages/NotMatch'
 import Dashboard from './components/pages/Dashboard'
 import Sample from './components/pages/Sample'
 import ComingSoon from './components/pages/ComingSoon'
+import DetailsWrapper from './components/pages/details'
 
 export default function Router() {
     return (
@@ -13,6 +14,7 @@ export default function Router() {
                <Route path="pages">
                     <Route path="sample" element={<Sample />} />
                     <Route path="feature" element={<ComingSoon />} />
+                    <Route path="details" element={<DetailsWrapper />}/>
                 </Route>
                 <Route path="*" element={<NotMatch />} /> 
             </Route> 
