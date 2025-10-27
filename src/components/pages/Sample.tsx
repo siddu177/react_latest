@@ -1,4 +1,4 @@
-import { PageHeader, PageHeaderHeading } from "@/components/page-header";
+import { PageHeader, PageHeaderHeading } from "../pages/page-header"; // Adjusted path to relative
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function Sample() {
